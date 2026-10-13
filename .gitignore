@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Output images and results (generated at runtime)
+**/output/
+**/experiment_10_results/
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.zip
+**/*.txt
+
+# Trained model weights (large files)
+**/*.pt
+**/*.pth
+**/*.keras
+**/*.h5
+**/*.onnx
+
+# YOLO / Ultralytics runs
+runs/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
